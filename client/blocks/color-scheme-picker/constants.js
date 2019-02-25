@@ -25,7 +25,7 @@ export default function( translate ) {
 				cssClass: 'is-classic-blue',
 			},
 		},
-		{
+		config.isEnabled( 'me/account/color-schemes/sakura' ) && {
 			label: translate( 'Sakura' ),
 			value: 'sakura',
 			thumbnail: {
